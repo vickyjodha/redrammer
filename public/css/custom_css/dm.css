@@ -1,0 +1,52 @@
+			
+html, body {
+	height: 100%;
+  	margin: 0;
+}
+
+.media{
+	height: 16%;
+}
+
+.main{
+	height: 76%;
+}
+
+.input-group{
+	height: 8%;
+}
+
+@media (height: 1024px){
+
+	.media{
+		height: 9%;
+	}
+	.main{
+		height: 86%;                
+	}
+	.input-group{
+		height: 5%;
+	}
+}
+
+@media (height: 480px){
+
+	.media{
+		height: 17%;
+
+	}
+	.main{
+		height: 77%;
+	}
+}
+
+@media (height: 320px){
+
+	.media{
+		height: 26%;
+
+	}
+	.main{
+		height: 66%;
+	}
+}

@@ -1,0 +1,64 @@
+
+html, body {
+	height: 100%;
+  	margin: 0;
+}
+
+.media{
+	height: 35%;
+}
+
+.main{
+	height: 60%;
+}
+
+.footer-group{
+	height: 5%;
+}
+
+#main{
+	height: 83%;
+}
+
+#footer{
+	height: 5%;
+}
+
+@media (height: 480px){
+	.media{
+		height: 36%;
+	}
+}
+
+@media (height: 320px){
+	.media{
+		height: 57%;
+	}
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  display: none;
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: lightgray;
+  border-radius: 1em;
+
+}
+
+body{
+	overflow-x: hidden;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.example::-webkit-scrollbar {
+  display: none;
+}

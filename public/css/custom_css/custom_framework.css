@@ -1,0 +1,40 @@
+
+.verification-badge{
+	width: 25px;
+	height: 20px;
+}
+
+.border-radius-2{
+	border-radius: 2em;
+}
+
+.border-radius-1{
+	border-radius: 1em;
+}
+
+.profile{
+	object-fit: cover;
+        cursor: pointer;
+}
+
+.custom-nav >div{
+    font-size: 20px;
+    margin-top: 0.5em;
+}
+
+.hover:hover{
+	opacity: 0.5;
+}
+
+.search{
+	height: 0.3in;
+	padding-left: 2em;
+	background-image: url("css_images/search.png");
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.cursor-pointer{
+	cursor: pointer;
+}
